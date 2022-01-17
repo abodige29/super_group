@@ -17,7 +17,7 @@ OFC_ID
 ,GRP_LVL
 ,GRP_NM
 ,RGN_NM
-,effective_dt
+,EFFECTIVE_DT
 ,ROW_PROCESS_DTM
 ,AUDIT_ID
 ,SOURCE_SYSTEM_ID
@@ -32,7 +32,7 @@ OFC_ID
 ,GRP_LVL
 ,GRP_NM
 ,RGN_NM
-,effective_dt
+,EFFECTIVE_DT
 ,ROW_PROCESS_DTM
 ,AUDIT_ID
 ,SOURCE_SYSTEM_ID
@@ -46,7 +46,7 @@ OFC_ID                          AS OFC_ID
 ,CLEAN_STRING(GRP_LVL)          AS GRP_LVL
 ,CLEAN_STRING(SUBSTRING(GRP_NM, 1, 50))         AS GRP_NM
 ,CLEAN_STRING(RGN_NM)           AS RGN_NM
-,CURRENT_DATE                   AS effective_dt
+,CURRENT_DATE                   AS EFFECTIVE_DT
 ,CURRENT_TIMESTAMP              AS ROW_PROCESS_DTM
 ,-1                             AS AUDIT_ID
 ,CLEAN_STRING('15')             AS SOURCE_SYSTEM_ID
