@@ -1,3 +1,19 @@
+/*
+    FileName: party_awf_rel_agreement_nb_requirement.sql
+    Author: mma2156
+    SUBJECT AREA : Party
+    Table_Name :rel_agreement_nb_requirement
+    SOURCE: AWF
+    Teradata Source Code: 82                        
+    Create Date:2022-02-04
+        
+    ===============================================================================================================
+    Version/JIRA Story#     Created By     Last_Modified_Date   Description
+    ---------------------------------------------------------------------------------------------------------------
+    JIRA 3952               Party-Tier2         02/09           First Version Tier-2 
+    ------------------------------------------------------------------------------------------------------------------
+    */ 
+
 CREATE LOCAL TEMPORARY TABLE TEMP ON COMMIT PRESERVE ROWS AS 
 SELECT * FROM edw_external_input_data.idm_br_hier_sup_grp WHERE 1<>1;
 
